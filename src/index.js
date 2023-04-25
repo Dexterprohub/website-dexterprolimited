@@ -2,12 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ServicePage from './Components/ServicePage';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import OilGasService from './Components/OilGasService';
+import TechnologyServices from './Components/TechnologyServices';
+import Careers from './Components/Careers';
+import AboutUs from './Components/AboutUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />}/>    
+        <Route path="services" element={<ServicePage />}/>
+        <Route path="about-us" element={<AboutUs />}/>
+        <Route path="careers" element={<Careers />}/>
+        <Route path="tech" element={<TechnologyServices />}/>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
