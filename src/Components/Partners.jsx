@@ -21,7 +21,7 @@ const Partners = () => {
             <img className="w-[130px] h-[50px] " src={geregu} alt="" />
           </div>
           <div className="flex flex-row items-center justify-around m-auto w-full mb-[50px] gap-[12px]">
-            <img className="w-[150px] h-[160px] " src={wcm} alt="" />
+            {/* <img className="w-[150px] h-[160px] " src={wcm} alt="" /> */}
             <img className="w-[130px] h-[50px]" src={zigma} alt="" />
           </div>
 
@@ -35,7 +35,7 @@ const Partners = () => {
           
           <div className="flex flex-row items-center justify-around md:justify-between m-auto w-full mb-[50px] gap-[12px]">
             <img className="w-[130px] md:w-[200px] h-[50px] " src={geregu} alt="" />
-            <img className="w-[150px] h-[160px] " src={wcm} alt="" />
+            {/* <img className="w-[150px] h-[160px] " src={wcm} alt="" /> */}
             <img className="w-[130px] h-[50px]" src={zigma} alt="" />
           </div>
 
@@ -45,7 +45,7 @@ const Partners = () => {
           <img className="w-[150px] xl:w-[150px] lg:w-[100px] h-[120px] " src={unitech} alt="" />
           <img className="w-[200px] xl:w-[200px] lg:w-[150px] h-[40px] " src={monipulo} alt="" />
           <img className="w-[200px] xl:w-[200px] lg:w-[150px] h-[50px] " src={geregu} alt="" />
-          <img className="w-[120px] xl:w-[120px] lg:w-[100px] h-[100px] " src={wcm} alt="" />
+          {/* <img className="w-[120px] xl:w-[120px] lg:w-[100px] h-[100px] " src={wcm} alt="" /> */}
           <img className="w-[150px] xl:w-[150px] h-[50px]" src={zigma} alt="" />
         </div>
        
